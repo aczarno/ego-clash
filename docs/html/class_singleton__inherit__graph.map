@@ -1,0 +1,5 @@
+<area shape="rect" href="$class_environment_manager.html" title="A singleton for getting and setting information about the environment." alt="" coords="5,80,147,107">
+<area shape="rect" href="$class_instrumentation.html" title="The Instrumentation class collects and records performance stats about the various..." alt="" coords="171,80,280,107">
+<area shape="rect" href="$class_platform_manager.html" title="Abstraction class for OS specific functionality." alt="" coords="304,80,424,107">
+<area shape="rect" href="$class_service_manager.html" title="Managerial class for providing services to the systems." alt="" coords="448,80,560,107">
+<area shape="rect" href="$class_system_manager.html" title="Provides a single location for access to the different systems that are available..." alt="" coords="584,80,699,107">

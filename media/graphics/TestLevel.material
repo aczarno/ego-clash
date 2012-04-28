@@ -1,0 +1,102 @@
+
+material wire_184155229
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7216 0.6078 0.898 1
+			diffuse 0.7216 0.6078 0.898 1
+			specular 0.35 0.35 0.35 1 32
+		}
+
+	}
+
+}
+
+
+
+material wire_027177027
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1059 0.6941 0.1059 1
+			diffuse 0.1059 0.6941 0.1059 1
+			specular 0.35 0.35 0.35 1 32
+		}
+
+	}
+
+}
+
+
+
+material wire_135059008
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.5294 0.2314 0.0314 1
+			diffuse 0.5294 0.2314 0.0314 1
+			specular 0.35 0.35 0.35 1 32
+		}
+
+	}
+
+}
+
+
+
+material wire_028089177
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.1098 0.349 0.6941 1
+			diffuse 0.1098 0.349 0.6941 1
+			specular 0.35 0.35 0.35 1 32
+		}
+
+	}
+
+}
+
+
+
+material wire_213154229
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.8353 0.6039 0.898 1
+			diffuse 0.8353 0.6039 0.898 1
+			specular 0.35 0.35 0.35 1 32
+		}
+
+	}
+
+}
+
+
+
+material wire_154185229
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.6039 0.7255 0.898 1
+			diffuse 0.6039 0.7255 0.898 1
+			specular 0.35 0.35 0.35 1 32
+		}
+
+	}
+
+}
+
+

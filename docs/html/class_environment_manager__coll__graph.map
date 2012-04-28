@@ -1,0 +1,5 @@
+<area shape="rect" href="$class_i_environment.html" title="An interface for getting and setting information about the environment." alt="" coords="5,83,101,109">
+<area shape="rect" href="$class_i_environment_1_1_i_runtime.html" title="An interface for environment runtime functionality." alt="" coords="125,83,280,109">
+<area shape="rect" href="$class_singleton.html" title="Base case for all singleton classes." alt="" coords="304,83,379,109">
+<area shape="rect" href="$class_environment_manager_1_1_variables.html" title="Environment variable functionality." alt="" coords="403,83,605,109">
+<area shape="rect" href="$class_i_environment_1_1_i_variables.html" title="An interface for environment variable functionality." alt="" coords="424,5,584,32">

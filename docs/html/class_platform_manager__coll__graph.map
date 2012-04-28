@@ -1,0 +1,8 @@
+<area shape="rect" href="$class_i_platform.html" title="An interface for accessing platform specific functionality for things like the OS..." alt="" coords="273,5,345,32">
+<area shape="rect" href="$class_singleton.html" title="Base case for all singleton classes." alt="" coords="272,56,347,83">
+<area shape="rect" href="$class_platform_manager_1_1_file_system.html" title="Provides OS file system functionality." alt="" coords="213,107,405,133">
+<area shape="rect" href="$class_platform_manager_1_1_timers.html" title="Provides OS timer functionality." alt="" coords="227,157,392,184">
+<area shape="rect" href="$class_platform_manager_1_1_processor.html" title="Provides OS file system functionality." alt="" coords="216,208,403,235">
+<area shape="rect" href="$class_i_platform_1_1_i_processor.html" title="An interface for accessing processor information." alt="" coords="7,208,148,235">
+<area shape="rect" href="$class_platform_manager_1_1_debugging.html" title="Provides OS debugging functionality." alt="" coords="216,259,403,285">
+<area shape="rect" href="$class_platform_manager_1_1_window_system.html" title="Provides OS window system functionality." alt="" coords="200,309,419,336">

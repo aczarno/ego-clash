@@ -1,0 +1,7 @@
+LIBRARY	"SystemECInput"
+
+EXPORTS
+
+	InitializeSystemLib=InitializeInput		@1
+    CreateSystem=CreateInputSystem			@2
+    DestroySystem=DestroyInputSystem		@3

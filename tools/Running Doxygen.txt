@@ -1,0 +1,12 @@
+1.	Download and install Doxygen (http://www.stack.nl/~dimitri/doxygen/download.html#latestsrc)
+2.	Run the Doxygen Wizard (Doxywizard)
+3.	Click Wizard…
+4.	Give you Project a name and id (i.e. Smoke and 1)
+5.	Specify the directory to scan for source code (i.e. Smoke\code\src)
+6.	Make sure “Scan recursively” is checked
+7.	Set the destination
+8.	You can leave everything else as default and click OK
+9.	Save your configuration for future use (use the Load… option in the future)
+10.	Set the working directory (I used Smoke\code)
+11.	Click run (should take a minute or two to run)
+12.	Enjoy a fresh breath of Doxygen and check out your documentation

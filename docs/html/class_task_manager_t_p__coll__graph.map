@@ -1,0 +1,11 @@
+<area shape="rect" href="$class_task_manager.html" title="This abstract class provides a ways for Systems to supply work to run asynchronously..." alt="" coords="67,277,165,304">
+<area shape="rect" href="$class_interface_1_1_i_task_manager.html" title="ITaskManager is an interface class for linking ISystemTasks to a TaskManager" alt="" coords="5,187,165,213">
+<area shape="rect" href="$class_basic_thread_pool.html" title="This class handles the actual management of the thread pool for TaskManagerTP." alt="" coords="445,277,565,304">
+<area shape="rect" href="$class_thread_context.html" title="This class wraps up all the events and status variables necessary to maintain a thread..." alt="" coords="500,368,604,395">
+<area shape="rect" href="$class_spin_wait.html" title="A spin wait object class similar to a critcal section." alt="" coords="469,187,544,213">
+<area shape="rect" href="$class_system_task_wrapper.html" title="This class is used by TaskManagerTP to run a ISystemTask Update method." alt="" coords="219,277,363,304">
+<area shape="rect" href="$class_work_item.html" title="This class is used by TaskManagerTP wrap tasks into objects that can be enqueued..." alt="" coords="368,187,445,213">
+<area shape="rect" href="$class_interface_1_1_i_system_task.html" title="ISystemTask is an interface class designed to work with a task manager for starting..." alt="" coords="189,187,344,213">
+<area shape="rect" href="$class_interface_1_1_i_system_scene.html" title="ISystemScene is an interface class for managing a scene or scenes in a system." alt="" coords="185,96,348,123">
+<area shape="rect" href="$class_interface_1_1_i_observer.html" title="The IObserver interface supplies loosely coupling systems with dependency. It facilitates..." alt="" coords="125,5,256,32">
+<area shape="rect" href="$class_interface_1_1_i_system.html" title="ISystem is an interface class designed to be a method for adding functionality to..." alt="" coords="280,5,405,32">

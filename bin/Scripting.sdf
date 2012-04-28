@@ -1,0 +1,5 @@
+<System Type="Scripting" Lib="SystemScripting">
+  <Properties>
+    <Property Name="ScriptsLocation" Path="..\media\scripts"/>
+  </Properties>
+</System>

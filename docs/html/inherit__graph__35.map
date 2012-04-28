@@ -1,0 +1,4 @@
+<area shape="rect" href="$class_interface_1_1_i_task_manager.html" title="ITaskManager is an interface class for linking ISystemTasks to a TaskManager" alt="" coords="5,31,165,57">
+<area shape="rect" href="$class_task_manager.html" title="This abstract class provides a ways for Systems to supply work to run asynchronously..." alt="" coords="215,31,313,57">
+<area shape="rect" href="$class_task_manager_t_b_b.html" title="This class uses Intel Threading Building Blocks to run tasks." alt="" coords="364,5,487,32">
+<area shape="rect" href="$class_task_manager_t_p.html" title="This class uses a pool of native Windows threads to run tasks." alt="" coords="368,56,483,83">

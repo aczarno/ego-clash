@@ -1,0 +1,4 @@
+<area shape="rect" href="$class_particle_emitter_1_1_cold_particle.html" title="A class that extends ParticleSystemWithEmitter to simulate cold emission (e.g. water)..." alt="" coords="329,5,513,32">
+<area shape="rect" href="$class_particle_emitter_1_1_fire.html" title="A class that extends ParticleSystemWithEmitter to represent a fire." alt="" coords="353,56,489,83">
+<area shape="rect" href="$class_particle_emitter_1_1_fire_ball.html" title="A class that extends ParticleSystemWithEmitter to represent a fire ball." alt="" coords="341,107,501,133">
+<area shape="rect" href="$class_particle_emitter_1_1_fire_patch.html" title="A class that extends ParticleSystemWithEmitter to represent a patch of fire." alt="" coords="336,157,507,184">

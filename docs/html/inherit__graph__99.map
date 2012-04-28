@@ -1,0 +1,3 @@
+<area shape="rect" href="$class_work_item.html" title="This class is used by TaskManagerTP wrap tasks into objects that can be enqueued..." alt="" coords="5,31,83,57">
+<area shape="rect" href="$class_system_parallel_for_wrapper.html" title="This class is used by TaskManagerTP to run a parallel for method." alt="" coords="132,5,308,32">
+<area shape="rect" href="$class_system_task_wrapper.html" title="This class is used by TaskManagerTP to run a ISystemTask Update method." alt="" coords="148,56,292,83">

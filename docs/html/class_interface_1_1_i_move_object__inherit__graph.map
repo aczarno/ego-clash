@@ -1,0 +1,5 @@
+<area shape="rect" href="$class_bot.html" title="Bot Implementation of the base bot AI. A bot is an AI that can have Goals." alt="" coords="104,80,144,107">
+<area shape="rect" href="$class_animal.html" title="Animal Implementation of the base animal AI. This class implements functionality..." alt="" coords="93,155,155,181">
+<area shape="rect" href="$class_chicken.html" title="Chicken Implementation of the chicken AI." alt="" coords="5,229,72,256">
+<area shape="rect" href="$class_horse.html" title="Horse Implementation of the horse AI." alt="" coords="96,229,152,256">
+<area shape="rect" href="$class_swallow.html" title="Swallow Implementation of the swallow AI." alt="" coords="176,229,243,256">

@@ -1,0 +1,11 @@
+<area shape="rect" href="$class_i_environment.html" title="An interface for getting and setting information about the environment." alt="" coords="41,5,137,32">
+<area shape="rect" href="$class_environment_manager.html" title="A singleton for getting and setting information about the environment." alt="" coords="223,56,364,83">
+<area shape="rect" href="$class_i_environment_1_1_i_runtime.html" title="An interface for environment runtime functionality." alt="" coords="12,56,167,83">
+<area shape="rect" href="$class_i_platform.html" title="An interface for accessing platform specific functionality for things like the OS..." alt="" coords="53,107,125,133">
+<area shape="rect" href="$class_platform_manager.html" title="Abstraction class for OS specific functionality." alt="" coords="233,107,353,133">
+<area shape="rect" href="$class_i_service.html" title="Interface class for providing services to the systems." alt="" coords="56,208,123,235">
+<area shape="rect" href="$class_service_manager.html" title="Managerial class for providing services to the systems." alt="" coords="237,208,349,235">
+<area shape="rect" href="$class_i_service_1_1_i_instrumentation.html" title="Instrumentation interface, to let various pieces of code touch the instrumentation..." alt="" coords="7,259,172,285">
+<area shape="rect" href="$class_instrumentation.html" title="The Instrumentation class collects and records performance stats about the various..." alt="" coords="239,259,348,285">
+<area shape="rect" href="$class_singleton.html" title="Base case for all singleton classes." alt="" coords="52,157,127,184">
+<area shape="rect" href="$class_system_manager.html" title="Provides a single location for access to the different systems that are available..." alt="" coords="236,157,351,184">

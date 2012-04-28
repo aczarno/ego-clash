@@ -1,0 +1,42 @@
+<GlobalDefinition>
+
+  <Environment>
+    <Variable Name="Framework::DebugWindow" Value="False"/>
+    <Variable Name="Scheduler::Benchmarking" Value="True"/>
+    <!-- TaskManager values of "TBB" (default), "TP", and "None" accepted -->
+    <Variable Name="TaskManager" Value="TBB"/>
+    <Variable Name="TaskManager::Threads" Value="0"/>
+    <Variable Name="TaskManagerTBB::TPEventsForTasks" Value="False"/>
+    <Variable Name="TaskManagerTBB::TPEventsForJobs" Value="False"/>
+    <Variable Name="TaskManagerTBB::TPEventsForSynchronize" Value="False"/>
+    <!-- Init StopAFterNFrames with a frame count to run until. 0=NoStop -->
+    <Variable Name="StopAfterNFrames" Value="0"/>
+    <!--Caps the smoke update to nnnFPS.  Use 30 for best looking smoke.  Too fast makes the smoke too smooth.-->
+    <!--<Variable Name="ProceduralFire::Parallel" Value="True"/>
+    <Variable Name="ProceduralFire::SubTasks" Value="60"/>
+    <Variable Name="Physics::Parallel" Value="True"/>
+    <Variable Name="AI::Parallel" Value="True"/>
+    <Variable Name="AI::SubTasks" Value="4"/>-->
+    <!-- Scene units are in meters -->
+    <Variable Name="Units" Value="0.01"/>
+    <!-- HOT!!! keys : actions defined in SystemInput/Scene.cpp -->
+    <Variable Name="Graphics::Parallel" Value="True"/>
+    <Variable Name="Graphics::PolygonMode" Value="0" />
+    <Variable Name="Graphics::ShowNormals" Value="False" />
+    <Variable Name="Graphics::ShowTangents" Value="False" />
+    <Variable Name="Graphics::ShowBoundingBox" Value="False" />
+    <Variable Name="Graphics::ShowCaptions" Value="False" />
+  </Environment>
+
+  <Systems>
+    <System Type="Geometry" Lib="SystemGeometry"/>
+    <System Type="Graphics" SDF="Graphics"/>
+    <System Type="Audio" SDF="Audio"/>
+    <System Type="Input" SDF="ECInput"/>
+  </Systems>
+
+  <Scenes Startup="ECDemo">
+    <Scene Name="ECDemo" CDF="ECDemo"/>
+  </Scenes>
+
+</GlobalDefinition>

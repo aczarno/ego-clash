@@ -1,0 +1,5 @@
+<area shape="rect" href="$class_a_i_task.html" title="AITask Implementation of the ISystemTask interface for AI." alt="" coords="56,277,117,304">
+<area shape="rect" href="$class_i_system_scene.html" title="ISystemScene is an interface class for managing a scene or scenes in a system." alt="" coords="49,96,156,123">
+<area shape="rect" href="$class_i_system_task.html" title="ISystemTask is an interface class designed to work with a task manager for starting..." alt="" coords="124,187,220,213">
+<area shape="rect" href="$class_i_observer.html" title="The IObserver interface supplies loosely coupling systems with dependency. It facilitates..." alt="" coords="17,5,92,32">
+<area shape="rect" href="$class_i_system.html" title="ISystem is an interface class designed to be a method for adding functionality to..." alt="" coords="116,5,185,32">

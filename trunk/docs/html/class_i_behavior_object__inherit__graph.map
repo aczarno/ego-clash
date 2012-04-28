@@ -1,0 +1,7 @@
+<area shape="rect" href="$class_a_i_object.html" title="AIObject Implementation of the ISystemObject interface. This is the base object created..." alt="" coords="127,80,199,107">
+<area shape="rect" href="$class_bot.html" title="Bot Implementation of the base bot AI. A bot is an AI that can have Goals." alt="" coords="104,155,144,181">
+<area shape="rect" href="$class_cam_bot.html" title="CamBot Implementation of the CamBot AI; an AI that moves the camera along a given..." alt="" coords="168,155,235,181">
+<area shape="rect" href="$class_animal.html" title="Animal Implementation of the base animal AI. This class implements functionality..." alt="" coords="93,229,155,256">
+<area shape="rect" href="$class_chicken.html" title="Chicken Implementation of the chicken AI." alt="" coords="5,304,72,331">
+<area shape="rect" href="$class_horse.html" title="Horse Implementation of the horse AI." alt="" coords="96,304,152,331">
+<area shape="rect" href="$class_swallow.html" title="Swallow Implementation of the swallow AI." alt="" coords="176,304,243,331">

@@ -1,0 +1,4 @@
+<area shape="rect" href="$class_p_o_i.html" title="POI POI (Point of Interest) is used to track points of interest that might affect..." alt="" coords="7,56,49,83">
+<area shape="rect" href="$class_p_o_i_contact.html" title="POIContact POIContact (Point of Interest: Contact) is used to track contact points..." alt="" coords="99,5,187,32">
+<area shape="rect" href="$class_p_o_i_fire.html" title="POIFire POIFire (Point of Interest: Fire) is used to track fire locations that might..." alt="" coords="111,56,175,83">
+<area shape="rect" href="$class_p_o_i_sound.html" title="POISound POISound (Point of Interest: Sound) is used to track sound locations that..." alt="" coords="103,107,183,133">

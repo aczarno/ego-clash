@@ -1,0 +1,6 @@
+<area shape="rect" href="$class_work_item.html" title="This class is used by TaskManagerTP wrap tasks into objects that can be enqueued..." alt="" coords="17,187,95,213">
+<area shape="rect" href="$class_system_task_wrapper.html" title="This class is used by TaskManagerTP to run a ISystemTask Update method." alt="" coords="93,277,237,304">
+<area shape="rect" href="$class_interface_1_1_i_system_task.html" title="ISystemTask is an interface class designed to work with a task manager for starting..." alt="" coords="119,187,273,213">
+<area shape="rect" href="$class_interface_1_1_i_system_scene.html" title="ISystemScene is an interface class for managing a scene or scenes in a system." alt="" coords="115,96,277,123">
+<area shape="rect" href="$class_interface_1_1_i_observer.html" title="The IObserver interface supplies loosely coupling systems with dependency. It facilitates..." alt="" coords="55,5,185,32">
+<area shape="rect" href="$class_interface_1_1_i_system.html" title="ISystem is an interface class designed to be a method for adding functionality to..." alt="" coords="209,5,335,32">

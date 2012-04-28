@@ -1,0 +1,6 @@
+<area shape="rect" href="$class_goal.html" title="Goal Implementation of the base AI goal." alt="" coords="5,107,53,133">
+<area shape="rect" href="$class_flocking.html" title="Flocking Implementation of a flocking goal. This goal mimics the flocking behavior..." alt="" coords="115,5,184,32">
+<area shape="rect" href="$class_goto_position.html" title="GotoPosition Implementation of a simple go to position goal." alt="" coords="101,56,197,83">
+<area shape="rect" href="$class_herding.html" title="Herding Implementation of a herding goal. This goal mimics the herding behavior of..." alt="" coords="117,107,181,133">
+<area shape="rect" href="$class_idle.html" title="Idle Implementation of a simple idle goal." alt="" coords="129,157,169,184">
+<area shape="rect" href="$class_panic.html" title="Panic Implementation of a panic goal. This goal will result in running away from..." alt="" coords="123,208,176,235">

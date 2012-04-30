@@ -33,80 +33,70 @@
 
 extern ManagerInterfaces g_Managers;
 
-FMODTask::FMODTask(
-    FMODScene* pScene
-    )
-    : ISystemTask( pScene )
-    , m_pScene( pScene )
+FMODTask::FMODTask(FMODScene* pScene)
+: ISystemTask( pScene )
+, m_pScene( pScene )
 {
-    ASSERT( m_pScene != NULL );
-    m_pSystem = (FMODSystem*)m_pScene->GetSystem();
+	ASSERT( m_pScene != NULL );
+	m_pSystem = (FMODSystem*)m_pScene->GetSystem();
 	m_Pause = False;
 }
 
 
-FMODTask::~FMODTask(
-    void
-    )
+FMODTask::~FMODTask(void)
 {
 }
 
 
-System::Type
-FMODTask::GetSystemType(
-    void
-    )
+System::Type FMODTask::GetSystemType(void)
 {
 	return System::Types::Audio;
 }
 
 
-void
-FMODTask::Update(
-    f32 DeltaTime
-    )
+void FMODTask::Update(f32 DeltaTime)
 {
 	if ( m_pSystem->AudioInitialized() )
-    {
-        // Update - process sound changes (random sounds)
-	    m_pScene->Update( DeltaTime );
-        m_Result = m_pSystem->m_pFMOD->update();
-        if (m_Result != FMOD_OK)
-        {
-	        m_pSystem->FMODErrorCode( m_Result, __FUNCTION__ );
-        }
+	{
+		// Update - process sound changes (random sounds)
+		m_pScene->Update( DeltaTime );
+		m_Result = m_pSystem->m_pFMOD->update();
+		if (m_Result != FMOD_OK)
+		{
+			m_pSystem->FMODErrorCode( m_Result, __FUNCTION__ );
+		}
 
-        // Check if environment is paused
-	    Bool Pause = g_Managers.pEnvironment->Runtime().GetStatus() == IEnvironment::IRuntime::Status::Paused;
+		// Check if environment is paused
+		Bool Pause = g_Managers.pEnvironment->Runtime().GetStatus() == IEnvironment::IRuntime::Status::Paused;
 
-	    if( Pause && !m_Pause )
-	    {
-		    // Pause the audio
-		    m_Pause = True;
-		    FMODSystem::PauseAll();
-	    }
-	    else if( !Pause && m_Pause )
-	    {
-		    // Unpause the audio
-		    m_Pause = False;
-		    FMODSystem::ResumeAll();
-	    }
+		if( Pause && !m_Pause )
+		{
+			// Pause the audio
+			m_Pause = True;
+			FMODSystem::PauseAll();
+		}
+		else if( !Pause && m_Pause )
+		{
+			// Unpause the audio
+			m_Pause = False;
+			FMODSystem::ResumeAll();
+		}
 
-        // Capture CPU Utilization information
-        // It was learned that cpu = stream + dsp + main, but on multi-core systems,
-        // cpu should not top at 100f.  The FMOD documentation states that cpu has
-        // a [0f, 100f] range.  We will disregard cpu and only have it here in case 
-        // the FMOD creators address this
-        f32 stream, dsp, main, cpu;
-        m_Result = m_pSystem->m_pFMOD->getCPUUsage( &stream, &dsp, &main, &cpu );
-        UNREFERENCED_PARAM(cpu);
-        if (m_Result != FMOD_OK)
-        {
-            m_pSystem->FMODErrorCode( m_Result, __FUNCTION__ );
-        }
-        //Debug::Print("s = %1.2f, d = %1.2f, m = %1.2f, c = %1.2f\n", stream, dsp, main, cpu);
+		// Capture CPU Utilization information
+		// It was learned that cpu = stream + dsp + main, but on multi-core systems,
+		// cpu should not top at 100f.  The FMOD documentation states that cpu has
+		// a [0f, 100f] range.  We will disregard cpu and only have it here in case 
+		// the FMOD creators address this
+		f32 stream, dsp, geometry, update, total;
+		m_Result = m_pSystem->m_pFMOD->getCPUUsage( &dsp, &stream, &geometry, &update, &total );
+		UNREFERENCED_PARAM(total);
+		if (m_Result != FMOD_OK)
+		{
+			m_pSystem->FMODErrorCode( m_Result, __FUNCTION__ );
+		}
+		//Debug::Print("s = %1.2f, d = %1.2f, m = %1.2f, c = %1.2f\n", stream, dsp, main, cpu);
 
-        m_pSystem->SetCPUUsage( stream + dsp + main );
-    }
+		m_pSystem->SetCPUUsage( stream + dsp + geometry + update );
+	}
 }
 

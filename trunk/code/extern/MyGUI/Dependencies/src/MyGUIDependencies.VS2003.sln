@@ -1,0 +1,46 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "freetype", "freetype-2.3.11\builds\win32\vc2005\freetype.2003.vcproj", "{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OIS", "ois-1.2.0\Win32\OIS.2003.vcproj", "{9CC704CB-4956-4479-BDEC-57CBC03F700E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug.ActiveCfg = Debug|Win32
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug.Build.0 = Debug|Win32
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release.ActiveCfg = Release|Win32
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release.Build.0 = Release|Win32
+		{9CC704CB-4956-4479-BDEC-57CBC03F700E}.Debug.ActiveCfg = Debug|Win32
+		{9CC704CB-4956-4479-BDEC-57CBC03F700E}.Debug.Build.0 = Debug|Win32
+		{9CC704CB-4956-4479-BDEC-57CBC03F700E}.Release.ActiveCfg = Release|Win32
+		{9CC704CB-4956-4479-BDEC-57CBC03F700E}.Release.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Debug|Win32.Build.0 = Debug|Win32
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release|Win32.ActiveCfg = Release|Win32
+		{78B079BD-9FC7-4B9E-B4A6-96DA0F00248B}.Release|Win32.Build.0 = Release|Win32
+		{9CC704CB-4956-4479-BDEC-57CBC03F700E}.Debug|Win32.ActiveCfg = OIS_DebugDll|Win32
+		{9CC704CB-4956-4479-BDEC-57CBC03F700E}.Debug|Win32.Build.0 = OIS_DebugDll|Win32
+		{9CC704CB-4956-4479-BDEC-57CBC03F700E}.Release|Win32.ActiveCfg = OIS_ReleaseDll|Win32
+		{9CC704CB-4956-4479-BDEC-57CBC03F700E}.Release|Win32.Build.0 = OIS_ReleaseDll|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

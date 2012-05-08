@@ -1,7 +1,9 @@
 <System Type="Graphics" Lib="SystemGraphicsOGRE">
 	<Properties>
-    <Property Name="ResourceLocation" Path="../media/graphics" Type="FileSystem" Group="farm_scene" Recursive="1"/>
-    <Property Name="WindowName" Value1="Smoke Demo"/>
+    <Property Name="ResourceLocation" Path="../media/graphics" Type="FileSystem" Group="General" Recursive="1"/>
+		<Property Name="ResourceLocation" Path="../media/graphics/GUI" Type="FileSystem" Group="General" Recursive="1"/>
+    <Property Name="ResourceLocation" Path="../media/graphics/GUI/Core" Type="FileSystem" Group="General" Recursive="0"/>
+    <Property Name="WindowName" Value1="EC"/>
 	  <Property Name="Resolution" Value1="1024" Value2="768"/>
     <Property Name="ShadowTextureCount" Value1="1"/>
     <Property Name="ShadowTextureSize" Value1="1024"/>

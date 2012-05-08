@@ -127,7 +127,6 @@ OGREGraphicsSystem::OGREGraphicsSystem(void)
 , m_uShadowTextureCount( 0 )
 , m_pResourceGroupManager( NULL )
 , m_pMaterialManager( NULL )
-
 {
 	ASSERT( Property_Count == (sizeof sm_kapszPropertyNames / sizeof sm_kapszPropertyNames[ 0 ]) );
 	ASSERT( Property_Count == (sizeof sm_kaDefaultProperties / sizeof sm_kaDefaultProperties[ 0 ]) );

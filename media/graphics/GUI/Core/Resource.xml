@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Resource" version="1.1">
+	<Resource type="ResourceImageSet" name="PlayerIcon">
+		<Group name="HUD" texture="HUD.png" size="131 142">
+			<Index name="Image">
+				<Frame point="0 0"/>
+			</Index>
+		</Group>
+	</Resource>
+	
+	<Resource type="ResourceImageSet" name="PlayerHealthBar">
+		<Group name="HUD" texture="HUD.png" size="243 39">
+			<Index name="Image">
+				<Frame point="132 0"/>
+			</Index>
+		</Group>
+	</Resource>
+	
+	<Resource type="ResourceImageSet" name="TimeCount">
+		<Group name="HUD" texture="HUD.png" size="107 106">
+			<Index name="Image">
+				<Frame point="376 0"/>
+			</Index>
+		</Group>
+	</Resource>
+	
+	<Resource type="ResourceImageSet" name="Player2HealthBar">
+		<Group name="HUD" texture="HUD.png" size="243 39">
+			<Index name="Image">
+				<Frame point="484 0"/>
+			</Index>
+		</Group>
+	</Resource>
+	
+	<Resource type="ResourceImageSet" name="Player2Icon">
+		<Group name="HUD" texture="HUD.png" size="131 142">
+			<Index name="Image">
+				<Frame point="728 0"/>
+			</Index>
+		</Group>
+	</Resource>
+	
+</MyGUI>

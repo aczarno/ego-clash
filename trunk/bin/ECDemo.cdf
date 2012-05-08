@@ -119,7 +119,7 @@
       <Object Name="StatWindow">
         <Properties SystemType="Graphics" ObjectType="StatWindow">
           <Property Name="Color" Value1="0" Value2="0" Value3="0" Value4="50"/>
-          <Property Name="Position" Value1="0.01" Value2="0.23"/>
+          <Property Name="Position" Value1="0.01" Value2="0.67"/>
           <Property Name="Size" Value1="0.12" Value2="0.33"/>
         </Properties>
         <Properties SystemType="Input" ObjectType="Overlay">
@@ -130,7 +130,7 @@
       <Object Name="CPUChart">
         <Properties SystemType="Graphics" ObjectType="CPUChart">
           <Property Name="Color" Value1="0" Value2="0" Value3="0" Value4="50"/>
-          <Property Name="Position" Value1="0.01" Value2="0.01"/>
+          <Property Name="Position" Value1="0.7" Value2="0.41"/>
           <Property Name="Size" Value1="0.3" Value2="0.2"/>
         </Properties>
         <Properties SystemType="Input" ObjectType="Overlay">
@@ -141,7 +141,7 @@
       <Object Name="WorkloadWindow">
         <Properties SystemType="Graphics" ObjectType="WorkloadWindow">
           <Property Name="Color" Value1="0" Value2="0" Value3="0" Value4="50"/>
-          <Property Name="Position" Value1="0.76" Value2="0.01"/>
+          <Property Name="Position" Value1="0.76" Value2="0.61"/>
           <Property Name="Size" Value1="0.22" Value2="0.39"/>
         </Properties>
         <Properties SystemType="Input" ObjectType="Overlay">
@@ -198,7 +198,6 @@
 					<Property Name="Animation" Value1="idle" Value2="idle"/>
 				</Properties>
 				<Properties SystemType="Input">
-					<!--<Property Name="Orientation" Value1="0.5" Value2="0.0" Value3="0.0"/>-->
 				</Properties>
 			</Object>
 			

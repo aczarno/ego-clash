@@ -47,6 +47,7 @@
 #include "ObjectCPUChart.h"
 #include "ObjectParticleSystem.h"
 #include "ObjectPagedGeometryLayer.h"
+#include "ObjectThreadStats.h"
 
 #include "MyGUI.h"
 #include "MyGUI_OgrePlatform.h"
@@ -1131,6 +1132,10 @@ ISystemObject* OGREGraphicsScene::CreateObject(pcstr pszName, pcstr pszType)
 		// Create and return the OGRE graphics object.
 		//
 		pObject = new OGREGraphicsObjectLayer( this, pszName );
+	}
+	else if(strcmp(pszType, OGREGraphicsObject::sm_kapszTypeNames[OGREGraphicsObject::Type_ThreadStats]) == 0)
+	{
+		pObject = new OGREGraphicsObjectThreadStats(this, pszName);
 	}
 	else
 	{

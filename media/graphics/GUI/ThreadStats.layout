@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MyGUI type="Layout" version="3.2.0">
+    <Widget type="TabControl" skin="TabControl" position="0 0 350 200" layer="Main" name="ThreadStats">
+        <Widget type="TabItem" skin="Default" position="2 24 344 172" name="PerformanceTab">
+            <Property key="Caption" value="Performance"/>
+            <Widget type="TextBox" skin="TextBox" position="10 10 125 20" name="FPS">
+                <Property key="Caption" value="FPS: 00"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position="10 35 125 20" name="Threads">
+                <Property key="Caption" value="Thread(s): 0"/>
+            </Widget>
+            <Widget type="TextBox" skin="TextBox" position="10 60 125 95" name="CPUPercent"/>
+        </Widget>
+        <Widget type="TabItem" skin="Default" position="2 24 344 172" name="CPUTab">
+            <Property key="Caption" value="CPU"/>
+            <Widget type="TextBox" skin="TextBox" position="5 5 335 20" name="TotalCPU">
+                <Property key="Caption" value="Total CPU: 0%"/>
+                <Property key="TextAlign" value="Center"/>
+            </Widget>
+            <Widget type="Widget" skin="PanelSkin" position="5 30 335 134" align="Stretch">
+                <Widget type="Widget" skin="PanelEmpty" position="30 3 301 127" align="Stretch" name="CPUChart"/>
+                <Widget type="TextBox" skin="TextBox" position="5 3 25 15">
+                    <Property key="Caption" value="100"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+                <Widget type="TextBox" skin="TextBox" position="5 111 25 15">
+                    <Property key="Caption" value="0"/>
+                    <Property key="TextAlign" value="Center"/>
+                </Widget>
+            </Widget>
+        </Widget>
+        <Widget type="TabItem" skin="Default" position="2 24 344 172" name="WorkloadTab">
+            <Property key="Caption" value="Workload"/>
+            <Widget type="TextBox" skin="TextBox" position="5 5 335 155" name="Systems"/>
+        </Widget>
+    </Widget>
+</MyGUI>

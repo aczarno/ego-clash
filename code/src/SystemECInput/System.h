@@ -101,6 +101,8 @@ protected:
 
 	static const char* sm_kapszPropertyNames[];
   static const Properties::Property sm_kaDefaultProperties[];
+
+	
 public:
 	struct HotKey 
 	{

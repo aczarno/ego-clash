@@ -97,3 +97,25 @@ void CInput::OnDeviceChange(WPARAM wParam, LPARAM lParam)
 	for(int i = 0; i < s_XboxGamepadCount; ++i)
 		m_XboxGamepads[i]->ReadConnection();
 }
+
+POINT CInput::GetMousePos()
+{
+	POINT point = { 0 };
+	GetCursorPos(&point);
+
+	/*MOUSEMOVEPOINT mmPoint = { 0 };
+	mmPoint.x = point.x;
+	mmPoint.y = point.y;
+
+	MOUSEMOVEPOINT points[64];
+	int pointCount = GetMouseMovePointsEx(sizeof(mmPoint), &mmPoint, points, 64, GMMP_USE_DISPLAY_POINTS);*/
+
+	HWND window = GetActiveWindow();
+	RECT windowRect, clientRect;
+	GetWindowRect(window, &windowRect);
+	GetClientRect(window, &clientRect);
+	point.x -= windowRect.left + ((windowRect.right-windowRect.left)-clientRect.right);
+	point.y -= windowRect.top + ((windowRect.bottom - windowRect.top)-clientRect.bottom);
+	//return SimplePoint(point.x, point.y);
+	return point;
+}

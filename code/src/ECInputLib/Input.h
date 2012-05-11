@@ -14,6 +14,13 @@ struct KeyState
 	BYTE	Keys[256];
 };
 
+struct SimplePoint
+{
+	int x;
+	int y;
+
+	SimplePoint(int _x, int _y) : x(_x), y(_y) {}
+};
 
 class CInput
 {
@@ -60,4 +67,6 @@ public:
 
 	// Reacts to a device change
 	void OnDeviceChange(WPARAM wParam, LPARAM lParam);
+
+	POINT GetMousePos();
 };

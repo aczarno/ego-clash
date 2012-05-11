@@ -11,6 +11,8 @@
 #include "..\ECInputLib\ECInputManager.h"
 #include "dinput.h"
 
+#include "MyGUI.h"
+
 extern ManagerInterfaces   g_Managers;
 
 // These are the generic names for all of the possible actions in the demo.
@@ -358,7 +360,32 @@ void InputScene::InputUpdate(f32 DeltaTime)
 	f32                total_pitch = 0.0f;
 
 	m_Input->Read();
-	
+
+	if(m_Input->GetBufferedKey(getHotKeyKey(INPUT_MOVE_LEFT)))
+		MyGUI::InputManager::getInstance().injectKeyPress(MyGUI::KeyCode::ArrowLeft);
+
+	if(m_Input->GetBufferedKey(getHotKeyKey(INPUT_MOVE_RIGHT)))
+		MyGUI::InputManager::getInstance().injectKeyPress(MyGUI::KeyCode::ArrowRight);
+
+	if(m_Input->GetBufferedKey(getHotKeyKey(INPUT_MOVE_UP)))
+		MyGUI::InputManager::getInstance().injectKeyPress(MyGUI::KeyCode::ArrowUp);
+
+	if(m_Input->GetBufferedKey(getHotKeyKey(INPUT_MOVE_DOWN)))
+		MyGUI::InputManager::getInstance().injectKeyPress(MyGUI::KeyCode::ArrowDown);
+
+	if(m_Input->GetBufferedKey(getHotKeyKey(INPUT_ACTION_1)))
+		MyGUI::InputManager::getInstance().injectKeyPress(MyGUI::KeyCode::Return);
+
+	// Temp mouse input
+	POINT point = m_Input->GetMousePos();
+	MyGUI::InputManager::getInstance().injectMouseMove(point.x, point.y, 0);
+
+	if(m_Input->GetBufferedKey(VK_LBUTTON))
+	{
+		MyGUI::InputManager::getInstance().injectMousePress(point.x, point.y, MyGUI::MouseButton::Left);
+		MyGUI::InputManager::getInstance().injectMouseRelease(point.x, point.y, MyGUI::MouseButton::Left);
+	}
+
 	/*if(m_Input->GetBufferedKey(VK_LCONTROL)
 		|| m_Input->GetBufferedKey(VK_RCONTROL) 
 		)

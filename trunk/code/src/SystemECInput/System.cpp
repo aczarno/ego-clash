@@ -161,5 +161,5 @@ Error InputSystem::DestroyScene(ISystemScene* pSystemScene)
 
 void InputSystem::SetKeys()
 {
-
+	
 }

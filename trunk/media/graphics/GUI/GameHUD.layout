@@ -15,7 +15,7 @@
     <Widget type="ImageBox" skin="ImageBox" position="893 0 131 142" layer="Main">
         <Property key="ImageResource" value="Player2Icon"/>
     </Widget>
-    <Widget type="TextBox" skin="TextBox" position="475 20 80 70" name="tbTimer" layer="Main">
+    <Widget type="TextBox" skin="TextBox" position="475 20 80 70" name="Timer" layer="Main">
         <Property key="TextColour" value="1 1 1"/>
         <Property key="Caption" value="99"/>
         <Property key="FontHeight" value="70"/>

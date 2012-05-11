@@ -352,6 +352,22 @@
 			>
 		</File>
 		<File
+			RelativePath=".\ObjectGUI.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\ObjectGUI.h"
+			>
+		</File>
+		<File
+			RelativePath=".\ObjectHUD.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\ObjectHUD.h"
+			>
+		</File>
+		<File
 			RelativePath=".\ObjectLight.cpp"
 			>
 		</File>
@@ -413,6 +429,14 @@
 		</File>
 		<File
 			RelativePath=".\ObjectStatWindow.h"
+			>
+		</File>
+		<File
+			RelativePath=".\ObjectThreadStats.cpp"
+			>
+		</File>
+		<File
+			RelativePath=".\ObjectThreadStats.h"
 			>
 		</File>
 		<File

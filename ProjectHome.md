@@ -1,0 +1,1 @@
+The best damn fighting game since Pokemon.
